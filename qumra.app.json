@@ -1,7 +1,7 @@
 {
   "name": "orders-sync",
   "handle": "orders-sync",
-  "version": "1.0.0",
+  "version": "1`.0.0",
   "description": "Sync your Qumra store orders automatically with Google Sheets or external systems.",
   "productionUrl": "https://mass-component-mixture-exposed.trycloudflare.com",
   "author": {

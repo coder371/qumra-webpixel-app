@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
-    "@qumra/app-react-router": "file:../../qumra-cloud/qumra-apps-sdk/packages/app-react-router",
+    "@qumra/app-react-router": "^1.0.3",
     "@qumra/app-sdk": "^0.3.2",
     "@qumra/app-session-storage-prisma": "^1.0.2",
-    "@qumra/jisr": "file:../../qumra-cloud/qumra-apps-sdk/packages/jisr",
+    "@qumra/jisr": "^1.0.4",
     "@qumra/web-pixels-extension": "^1.0.5",
     "@react-router/fs-routes": "^7.9.4",
     "@react-router/node": "^7.9.2",
