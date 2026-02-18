@@ -1,0 +1,29 @@
+{
+  "clientId": "a980c9ed-8c19-4709-96c7-3c672b0ebc9a",
+  "devStore": "bmzcfgpu.qumra.store",
+  "extensions": [
+    {
+      "name": "webpixelsss",
+      "type": "webpixel",
+      "extensionId": "ext_1771363806800_6qv9j5",
+      "pixelId": "px_1771363806800_yc2l4u"
+    },
+    {
+      "name": "pixelsdfsdf",
+      "type": "webpixel",
+      "extensionId": "ext_1771364695394_ct25lp",
+      "pixelId": "px_1771364695394_db21zu"
+    },
+    {
+      "name": "testpi",
+      "type": "webpixel",
+      "extensionId": "ext_1771365737214_icldxt",
+      "pixelId": "px_1771365737214_9j2xgr"
+    },
+    {
+      "name": "test",
+      "type": "web_pixel",
+      "extensionId": "6994ebe82bba473d29f9a7c6"
+    }
+  ]
+}

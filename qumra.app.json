@@ -1,0 +1,55 @@
+{
+  "name": "orders-sync",
+  "handle": "orders-sync",
+  "version": "1.0.0",
+  "description": "Sync your Qumra store orders automatically with Google Sheets or external systems.",
+  "productionUrl": "https://mass-component-mixture-exposed.trycloudflare.com",
+  "author": {
+    "name": "Mustafa Mohamed",
+    "email": "dev@qumra.cloud"
+  },
+  "appUrl": "http://localhost:3000",
+  "oauth": {
+    "required": true,
+    "callback_path": "/auth/callback",
+    "scopes": [
+      "read_orders",
+      "write_orders",
+      "read_customers"
+    ]
+  },
+  "webhooks": {
+    "api_version": "2025-07-01",
+    "subscriptions": [
+      {
+        "topics": [
+          "product/create"
+        ],
+        "uri": "/product-create"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "path": "/",
+      "label": "Home"
+    },
+    {
+      "path": "/about",
+      "label": "About  5"
+    },
+    {
+      "path": "/contacts",
+      "label": "Contacts"
+    }
+  ],
+  "scopes": [
+    "read_orders",
+    "write_orders",
+    "read_customers",
+    "read_customers",
+    "read_customers",
+    "read_products",
+    "write_pixels"
+  ]
+}
